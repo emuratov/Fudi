@@ -1,0 +1,167 @@
+@font-face {
+  font-family: "LatoRegular";
+  src: url("fonts/LatoRegular/LatoRegular.eot");
+  src: url("fonts/LatoRegular/LatoRegular.eot?#iefix") format("embedded-opentype"), url("fonts/LatoRegular/LatoRegular.woff") format("woff"), url("fonts/LatoRegular/LatoRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "LatoBold";
+  src: url("fonts/LatoBold/LatoBold.eot");
+  src: url("fonts/LatoBold/LatoBold.eot?#iefix") format("embedded-opentype"), url("fonts/LatoBold/LatoBold.woff") format("woff"), url("fonts/LatoBold/LatoBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "LatoItalic";
+  src: url("fonts/LatoItalic/LatoItalic.eot");
+  src: url("fonts/LatoItalic/LatoItalic.eot?#iefix") format("embedded-opentype"), url("fonts/LatoItalic/LatoItalic.woff") format("woff"), url("fonts/LatoItalic/LatoItalic.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "LatoLight";
+  src: url("fonts/LatoLight/LatoLight.eot");
+  src: url("fonts/LatoLight/LatoLight.eot?#iefix") format("embedded-opentype"), url("fonts/LatoLight/LatoLight.woff") format("woff"), url("fonts/LatoLight/LatoLight.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "LatoBoldItalic";
+  src: url("fonts/LatoBoldItalic/LatoBoldItalic.eot");
+  src: url("fonts/LatoBoldItalic/LatoBoldItalic.eot?#iefix") format("embedded-opentype"), url("fonts/LatoBoldItalic/LatoBoldItalic.woff") format("woff"), url("fonts/LatoBoldItalic/LatoBoldItalic.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "LatoLightItalic";
+  src: url("fonts/LatoLightItalic/LatoLightItalic.eot");
+  src: url("fonts/LatoLightItalic/LatoLightItalic.eot?#iefix") format("embedded-opentype"), url("fonts/LatoLightItalic/LatoLightItalic.woff") format("woff"), url("fonts/LatoLightItalic/LatoLightItalic.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+body {
+  font-family: "LatoRegular";
+}
+body a:hover {
+  color: gray;
+}
+.main {
+  height: 80vh;
+  background-image: url(img/main.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+.main a {
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+  font-size: 14px;
+  text-decoration: none;
+}
+.container {
+  max-height: 80%;
+  text-align: center;
+}
+.content {
+  color: white;
+  padding-top: 10%;
+}
+.content h2 {
+  margin: 0;
+  font-size: 36px;
+  font-family: "LatoBoldItalic";
+  opacity: 0.7;
+}
+.content h1 {
+  font-size: 100px;
+  font-family: "LatoBold";
+  margin-top: 0;
+}
+.content a {
+  font-size: 18px;
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 3px;
+  padding: 12px 35px 10px 35px;
+}
+.content p {
+  font-size: 14px;
+  padding-top: 25px;
+}
+.items {
+  height: 30%;
+}
+.items img {
+  margin-top: 20%;
+}
+.items h1 {
+  font-size: 18px;
+  font-family: "LatoBold";
+}
+.items p {
+  font-family: "LatoLight";
+  font-size: 16px;
+  margin-bottom: 20%;
+}
+.intro {
+  background-color: #f7f7f7;
+}
+.intro img {
+  padding-top: 20%;
+  max-width: 70%;
+}
+.intro h1 {
+  padding-top: 20%;
+  font-size: 18px;
+  font-family: "LatoBold";
+}
+.intro p {
+  font-family: "LatoLight";
+  font-size: 16px;
+  text-align: left;
+}
+.googleIcon {
+  text-align: left;
+}
+.googleIcon img {
+  padding-top: 5%;
+}
+.cuisines h1 {
+  padding: 3%;
+  text-align: center;
+  font-size: 18px;
+  font-family: "LatoBold";
+}
+.cuisines img {
+  width: 20%;
+  padding: 0;
+  margin: 0;
+}
+.numbers {
+  display: inline-block;
+  width: 19%;
+  padding-bottom: 5%;
+}
+.numbers h1 {
+  font-family: "LatoBold";
+  font-size: 36px;
+}
+.numbers p {
+  font-family: "LatoLight";
+}
+.footer {
+  background-color: #f7f7f7;
+}
+.footer p {
+  background-color: #f7f7f7;
+  font-size: 16px;
+  opacity: 0.5;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.footer a {
+  color: black;
+  font-family: "LatoBold";
+  opacity: 2;
+}
